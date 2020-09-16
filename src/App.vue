@@ -1,10 +1,12 @@
 <template>
-  <router-view />
+  <router-view/>
 </template>
 
 <script lang="ts">
-import Vue from "vue";
-export default ({
-  name: "App",
-});
+
+  export default{
+    name: "App",
+    mounted(): void {
+    }
+  }
 </script>
