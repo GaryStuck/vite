@@ -10,3 +10,8 @@
     }
   }
 </script>
+<style lang="scss">
+  body {
+    background-color: #2c3e50;
+  }
+</style>

@@ -16,19 +16,16 @@ const router = createRouter({
   ]
 })
 const app = createApp(App)
-app.config.errorHandler =
-    (message) => {
-      console.log(message)
-    }
+app.config.errorHandler = (message: any) => {
+  console.exception(...message);
+};
 app.config.warnHandler =
     (message) => {
       console.error(message+'123')
     }
 try {
-  app.use(toast)
-  app.use(router)
+  app.use(router);
 } catch (e) {
-  throw e
+  throw e;;
 }
-console.log(app);
 app.mount('#app')
