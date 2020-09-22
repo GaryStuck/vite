@@ -2,7 +2,7 @@
   "name": "v-yg-ui",
   "version": "0.0.1",
   "scripts": {
-    "dev": "vite --open",
+    "dev": "vite",
     "build": "vite build"
   },
   "dependencies": {
