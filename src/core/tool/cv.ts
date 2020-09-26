@@ -39,11 +39,11 @@ class Cv implements CvTool {
 }
 
 export class Arrow {
-  x: number;
+  protected x: number;
   private h: number;
-  y: number;
+  protected y: number;
   private w: number;
-  public rotation: number;
+  protected rotation: number;
   private fillStyle: string;
   private strokeStyle: string;
 
